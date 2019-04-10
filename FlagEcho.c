@@ -63,7 +63,7 @@ main(int argc, char* argv[])
 
     /* convert the flag and print */
     if (flag_convert(ws, buffer_size)) {
-        fwprintf(stderr, L"error: out of range character inputed\n");
+        fwprintf(stderr, L"error: out of range character entered\n");
         return 1;
     }
     
